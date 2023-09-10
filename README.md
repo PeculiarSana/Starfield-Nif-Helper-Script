@@ -35,7 +35,7 @@ I made this in 2 hours so that we could quickly convert a large amount of Starfi
    - This will convert the .nif and place the newly created .obj inside the same directory as nif_info.exe.
 
 ### Using the batch converter
-1. Download and place the `convert.sh` file in your ce2utils folder
+1. Download and place the `convert.sh` file in your ce2utils folder (next to nif_info.exe)
 2. Edit the script to add your Starfield Data directory in `STARFIELD_DATA=""`
 3. Launch MSYS2 MINGW64 and cd to your ce2utils folder
 4. Run `sh convert.sh [parameters]`
