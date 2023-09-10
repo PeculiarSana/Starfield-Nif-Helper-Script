@@ -3,6 +3,8 @@
 A simple shell script that iterates through the names of .nif files in a provided directory, or alternatively through a .txt file.
 I made this in 2 hours so that we could quickly convert a large amount of Starfield .nif files at once without having to run a dozen commands manually.
 
+This script relies entirely on MYSY2 and CE2utils (https://github.com/fo76utils/ce2utils), and is only a utility script to speed up workflows, nothing more.
+
 ## Usage
 `sh convert.sh [options]`
 - Options:
@@ -42,3 +44,8 @@ I made this in 2 hours so that we could quickly convert a large amount of Starfi
 5. The converted .OBJs will be placed in ./converted
 
 If you need a list of the .nif files available to export, use the Bethesda Archive Extractor (https://www.nexusmods.com/starfield/mods/165) to extract Starfield - Meshes01.ba2 and Starfield - Meshes01.ba2 found in Starfield/Data.
+
+## Credits:
+- Surasia for writing the initial guide on exporting .nifs on the Starfield Modding Discord (https://discord.gg/6C6Wyd5Qhk)
+- Ce2utils team (https://github.com/fo76utils/ce2utils)
+- MSYS2 team (https://www.msys2.org/)
