@@ -35,6 +35,8 @@ This script relies entirely on MYSY2 and CE2utils (https://github.com/fo76utils/
 6. nif_info.exe is the tool used to convert .nif files into .obj, and can be run by typing `./nif_info -obj [SF data path] [target nif file] > [output obj file]`
    - Ex: `./nif_info -obj “C:/Games/Starfield/Data” “lasercutter.nif” > lasercutter.obj`
    - This will convert the .nif and place the newly created .obj inside the same directory as nif_info.exe.
+7. If you want to convert a single file, launch MSYS2 MINGW64, cd to your ce2tools folder, and run `./nif_info.exe -obj [Starfield Data Dir] [nif file name] > [exprorted obj file name]`
+   - Ex: `./nif_info.exe -obj "D:\Games\Steam\steamapps\common\Starfield\Data" "hands_3rd_m.nif" > hands_3rd_m.obj`
 
 ### Using the batch converter
 1. Download and place the `convert.sh` file in your ce2utils folder (next to nif_info.exe)
