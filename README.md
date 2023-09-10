@@ -1,6 +1,6 @@
 # Starfield-Nif-Helper-Script
 
-A simple shell script that iterates through the names of .nif files in a provided directory, or alternatively through a .txt file.
+A simple shell script that iterates through the names of .nif files in a provided directory - or alternatively through a .txt file - and converts them into the .obj format so they can be viewed in external 3D software.
 I made this in 2 hours so that we could quickly convert a large amount of Starfield .nif files at once without having to run a dozen commands manually.
 
 This script relies entirely on MYSY2 and CE2utils (https://github.com/fo76utils/ce2utils), and is only a utility script to speed up workflows, nothing more.
